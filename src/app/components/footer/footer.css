@@ -1,0 +1,8 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Ocupa la mitad de la pantalla */
+  font-size: 1.2rem;
+  font-weight: bold;
+}

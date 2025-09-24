@@ -1,0 +1,7 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh; /* deja espacio para el header y footer */
+  text-align: center;
+}
