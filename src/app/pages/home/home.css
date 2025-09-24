@@ -1,8 +1,28 @@
-:host {
+
+
+
+.home-center {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh; /* Ocupa la mitad de la pantalla */
-  font-size: 1.2rem;
-  font-weight: bold;
+  min-height: 70vh;
+  gap: 32px;
+  background: #232323;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px #000a;
+  margin: 32px auto;
+  max-width: 600px;
+  border: 2px solid #b71c1c;
 }
+
+.home-center p {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #b71c1c;
+  text-shadow: 0 2px 8px #000a;
+  letter-spacing: 2px;
+  font-family: 'Orbitron', 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+

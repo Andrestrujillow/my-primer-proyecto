@@ -1,6 +1,9 @@
+
 header {
-  background-color: #333;
-  padding: 1rem;
+  background: #232323;
+  padding: 16px 0 12px 0;
+  box-shadow: 0 2px 12px #000a;
+  border-bottom: 2px solid #b71c1c;
 }
 
 nav {
@@ -10,11 +13,20 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: #f2f2f2;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 8px 20px;
+  border-radius: 12px;
+  border: 1.5px solid #b71c1c;
+  background: #232323;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 8px #0004;
 }
 
 nav a:hover {
-  color: #00bcd4;
+  background: #b71c1c;
+  color: #fff;
+  box-shadow: 0 2px 12px #b71c1c;
 }

@@ -12,13 +12,13 @@ import { Component } from '@angular/core';
   `,
   styles: [`
     .contador-container {
-      border: 1px solid #ccc;
+      border: 1px solid #850202ff;
       padding: 16px;
       border-radius: 8px;
       width: 220px;
       margin: 24px auto;
       text-align: center;
-      background: #f9f9f9;
+      background: #664040ff;
     }
     button {
       margin: 4px;

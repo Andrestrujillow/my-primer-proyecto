@@ -1,12 +1,25 @@
+
+
+
 .contact-container {
-  padding: 2rem;
+  padding: 2.5rem 1rem;
   max-width: 600px;
-  margin: auto;
+  margin: 32px auto;
+  background: #232323;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px #000a;
+  border: 2px solid #b71c1c;
 }
+
+
 
 .contact-container h1 {
   text-align: center;
   margin-bottom: 1rem;
+  color: #b71c1c;
+  font-size: 2.2rem;
+  text-shadow: 0 2px 8px #000a;
+  font-family: 'Orbitron', 'Segoe UI', 'Roboto', Arial, sans-serif;
 }
 
 .contact-form {
@@ -15,22 +28,34 @@
   gap: 1rem;
 }
 
+
+
 .contact-form input,
 .contact-form textarea {
   padding: 0.8rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 1.5px solid #b71c1c;
+  border-radius: 8px;
+  background: #181818;
+  color: #f2f2f2;
+  font-size: 1rem;
 }
 
+
+
 .contact-form button {
-  background: #00bcd4;
+  background: #b71c1c;
   color: #fff;
   border: none;
   padding: 0.8rem;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  box-shadow: 0 1px 8px #b71c1c;
 }
 
 .contact-form button:hover {
-  background: #0097a7;
+  background: #d32f2f;
 }
+
+
