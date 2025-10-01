@@ -1,5 +1,13 @@
 
-
+.productos{
+  display: flex;
+  flex-wrap: wrap;
+}
+.producto{
+  border: 1px solid #f2f2f2;
+  padding: 10px;
+  width: 25%;
+}
 
 .products-container {
   padding: 2.5rem 1rem;

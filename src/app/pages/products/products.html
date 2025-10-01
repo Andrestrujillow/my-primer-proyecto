@@ -1,2 +1,16 @@
 <p>products works!</p>
 <img src="/img/gojo2.jpg" alt="mtb" width="800" height="400" >
+<section class="productos">
+@for (producto of productos; track producto.id) {
+    <article class="producto">
+        <img [src] = "producto.imagen" [alt]="producto.nombre">
+        <h3>{{producto.nombre}}</h3>
+        <p>{{producto.descripcion}}</p>
+        <strong>{{producto.precio}}</strong>
+        <br>
+        <button>ver mas</button>
+
+    </article>
+}
+</section>
+
